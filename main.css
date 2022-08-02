@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+width: 100%;
+height: 8rem;
+    color: #808080;
+    text-align: center;
+    border-bottom: 2px solid #cccccc;
+} 
+    
+.logo img {
+    height:5rem;
+    width: 15rem;
+    margin-left: 20rem;
+    margin-top: 2rem;
+}
+nav {
+ height: 100%;
+ width: 100%;
+    display: flex;  
+}
+
+#navbar{
+    display:flex;
+    margin-left:2rem;
+    flex-direction: column;
+    width: 100%;
+    height: 8rem;
+    
+}
+.downbar ul {
+    display: flex;
+  
+  
+}
+
+.downbar ul li{
+    list-style: none;
+    margin-left: 2.2rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    /* border: 2px solid #cccccc; */
+    padding: 0.5rem;
+    
+    /* border-radius: 0.5rem; */
+    /* background-color:#93c13b; */
+   
+}
+.downbar ul li:first-child a{
+    color: #214173;
+    
+}
+.downbar ul li a{
+    text-decoration: none;
+    color: #3a3a3a;
+
+  
+}
+.downbar ul li:hover{
+    background-color: #1ea0da;
+    border-radius: 5px;
+    
+}  
+.downbar ul li a:hover{
+color: #c1ff18;
+}
+.topbar {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin-right: 10rem;
+        margin-top: 1rem;
+        font-size: 1rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+
+}
+.topbar a{
+    text-decoration: none;
+    color: #3a3a3a;
+}
+.tel i{
+    font-size: 2rem;
+    margin-right: 10px;
+    color: #25d366 ;
+}
+.tel{
+    display: flex;
+    flex-direction: column;
+}        
+
+
+footer{
+background-color: black;
+  width: 100%;
+}
+
+.footer{
+    width: 100%;
+    height:12rem;
+   display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    color: #ffffff;   
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),
+    url(/images/altbar.jpg);
+
+}
+
+
+.altlogo{
+    width: 35%;
+    height:5rem;
+     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.altlogo img{
+    width: 9rem;
+    height: 5rem;
+    margin-right: 50px;
+    margin-top: 0px;
+}
+.altmenu{
+    width: 65%;
+    height:3rem;  
+    display: flex;
+    align-items: flex-end;
+    
+}
+.altmenu ul{
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;  
+}
+.altmenu ul li{
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+   
+}
+.altmenu ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.icons {
+    width: 35%;
+}
+
+.adres{
+    width: 65%;
+    height: 6rem;
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: 0.5rem;
+}
+.copy{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+  margin-left: 30em;
+  color: #ffffff;
+
+}
+body{
+    display: flex;
+    justify-content: column!important;
+    flex-wrap: wrap;
+ 
+}
+.container{
+    width: 100%;
+    height: 38.7rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    object-fit: cover;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+#hizmetlerimiz{
+   width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+#hizmetlerimiz img{
+    width: 255px;
+    height: 255px;
+    object-fit: cover;
+    margin: 1rem;
+}
+.images{
+   width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+#markalarımız{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+#markalarımız img{
+    width: 255px;
+    height: 170px;
+    object-fit: cover;
+    margin: 1rem;
+}
+.markalar{
+    width: 70%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     margin-top: 1rem;
+     margin-bottom: 3rem;
+     text-align: center;
+}
